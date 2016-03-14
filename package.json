@@ -1,0 +1,29 @@
+{
+  "name": "moviedb-api",
+  "description": "throttled hackable moviedb api for node",
+  "version": "0.0.1",
+  "scripts": {
+    "test": ""
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/leviwheatcroft/moviedb-api.git"
+  },
+  "license": "MIT",
+  "keywords": [
+    "themoviedb",
+    "api",
+    "tmdb"
+  ],
+  "bugs": {
+    "url": "https://github.com/leviwheatcroft/moviedb-api/issues"
+  },
+  "homepage": "https://github.com/leviwheatcroft/moviedb-api",
+  "main": "index.js",
+  "author": "Levi Wheatcroft <levi@wheatcrofts.com.au>",
+  "dependencies": {
+    "bluebird": "^3.3.4",
+    "superagent": "^1.6.1",
+    "underscore": "^1.8.3"
+  },
+}
