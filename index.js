@@ -6,7 +6,7 @@ var Promise = require('bluebird')
 var Api
 
 var baseUrl = 'https://api.themoviedb.org/3'
-var jsonPath = 'apib/endpoints.json'
+var jsonPath = './apib/endpoints.json'
 var defaults = {
   consume: false,
   apiKey: 'specifyYourKey'

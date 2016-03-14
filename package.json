@@ -24,6 +24,7 @@
   "dependencies": {
     "bluebird": "^3.3.4",
     "superagent": "^1.6.1",
+    "superagent-throttle": "0.0.5",
     "underscore": "^1.8.3"
   }
 }
