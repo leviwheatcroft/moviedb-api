@@ -25,5 +25,5 @@
     "bluebird": "^3.3.4",
     "superagent": "^1.6.1",
     "underscore": "^1.8.3"
-  },
+  }
 }
