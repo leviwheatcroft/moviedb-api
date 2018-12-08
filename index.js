@@ -46,6 +46,10 @@ Api.prototype.request = function(endpoint, type, data, callback) {
     .set('Accept', 'application/json')
     .use(api.throttle.plugin)
     .end(function(err, response){
+      if(err) {
+        reject(err)
+        return
+      }
       if(response.ok) {
         api.token = response.body
         // unpause throttle
