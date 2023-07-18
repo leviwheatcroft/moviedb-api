@@ -23,8 +23,8 @@
   "author": "Levi Wheatcroft <levi@wheatcrofts.com.au>",
   "dependencies": {
     "bluebird": "^3.3.4",
-    "superagent": "^1.6.1",
+    "superagent": "^8.0.9",
     "superagent-throttle": "0.0.5",
-    "underscore": "^1.8.3"
+    "underscore": "^1.13.6"
   }
 }
